@@ -1,6 +1,8 @@
 # JJ Bake's — Home Bakery 🍰
 CodeAlpha Full Stack Development Internship — Task 1 (Simple E-commerce Store)
-
+# Demo Link
+ https://jainafjumana.github.io/CodeAlpha_JJBakes/
+ 
 ---
 
 ## 1. What this website is
