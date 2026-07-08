@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JJ Bake's — Home Bakery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Jost:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#home" class="brand">
+      <span class="brand-script">JJ Bake's</span>
+      <span class="brand-sub">Home Bakery</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#menu">Menu</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="themeToggle" class="icon-btn" title="Toggle light / dark" aria-label="Toggle theme">
+        <svg class="icon sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+        <svg class="icon moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+
+      <button id="accountBtn" class="icon-btn" title="Account" aria-label="Account">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8.2" r="3.4"/><path d="M4.8 19.5c1.4-3.2 4-4.8 7.2-4.8s5.8 1.6 7.2 4.8"/></svg>
+        <span id="accountLabel">Login</span>
+      </button>
+
+      <button id="cartBtn" class="icon-btn cart-btn" title="Cart" aria-label="Cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L20.5 8H6.2"/><circle cx="9.5" cy="20" r="1.1"/><circle cx="17" cy="20" r="1.1"/></svg>
+        <span id="cartCount" class="cart-count">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Small-batch &middot; Made to order &middot; Cheranmahadevi, Tirunelveli</p>
+      <h1>Cakes worth <em>pre-ordering</em> for.</h1>
+      <p class="hero-text">
+        Custom design cakes, bento cakes, brownies, cupcakes, cocoa cookies and
+        cookie dip jars — baked fresh once your order is confirmed, never off a shelf.
+      </p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">View Menu</a>
+        <a href="#how-it-works" class="btn btn-ghost">How ordering works</a>
+      </div>
+      <div class="hero-badges">
+        <span>🚚 Home delivery</span>
+        <span>📅 Pre-order</span>
+        <span>🎨 Custom design</span>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <svg id="heroCake" viewBox="0 0 320 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="160" cy="300" rx="110" ry="14" class="cake-line cake-plate"/>
+        <path class="cake-line" d="M70 300 L70 250 Q70 235 90 232 L230 232 Q250 235 250 250 L250 300"/>
+        <path class="cake-line" d="M85 232 L95 175 Q97 163 112 163 L208 163 Q223 163 225 175 L235 232"/>
+        <path class="cake-line" d="M112 163 L120 118 Q122 108 133 108 L187 108 Q198 108 200 118 L208 163"/>
+        <path class="cake-line" d="M70 250 Q160 262 250 250" />
+        <path class="cake-line" d="M85 232 Q160 244 235 232" />
+        <path class="cake-line" d="M112 163 Q160 173 208 163" />
+        <path class="cake-line cake-icing" d="M95 232 Q102 224 110 232 Q118 240 126 232 Q134 224 142 232 Q150 240 158 232 Q166 224 174 232 Q182 240 190 232 Q198 224 206 232 Q214 240 222 232"/>
+        <path class="cake-line cake-icing" d="M120 163 Q126 156 133 163 Q140 170 147 163 Q154 156 161 163 Q168 170 175 163 Q182 156 189 163 Q196 170 203 163"/>
+        <path class="cake-line" d="M133 108 Q128 92 138 80" />
+        <path class="cake-line" d="M187 108 Q192 92 182 80" />
+        <path class="cake-line cake-bloom" d="M160 66 Q150 56 160 46 Q170 56 160 66Z"/>
+        <path class="cake-line cake-bloom" d="M144 78 Q136 70 144 60 Q152 70 144 78Z"/>
+        <path class="cake-line cake-bloom" d="M176 78 Q184 70 176 60 Q168 70 176 78Z"/>
+        <path class="cake-line" d="M160 66 Q158 90 160 108" />
+        <path class="cake-line" d="M144 78 Q148 96 155 112" />
+        <path class="cake-line" d="M176 78 Q172 96 165 112" />
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="how" id="how-it-works">
+  <div class="wrap">
+    <h2>How ordering works</h2>
+    <div class="how-grid">
+      <div class="how-card">
+        <span class="how-num">1</span>
+        <h3>Pick from the menu</h3>
+        <p>Choose your flavor, size and add-ons. Every custom cake ships with a design note field.</p>
+      </div>
+      <div class="how-card">
+        <span class="how-num">2</span>
+        <h3>Pre-order the date</h3>
+        <p>Custom &amp; bento cakes need 1–2 days' notice. Boxed items can be same-day pickup.</p>
+      </div>
+      <div class="how-card">
+        <span class="how-num">3</span>
+        <h3>Delivery or pickup</h3>
+        <p>Get it delivered home or pick it up fresh from the kitchen — your choice at checkout.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MENU ============ -->
+<section class="menu" id="menu">
+  <div class="wrap">
+    <h2>The Menu</h2>
+    <div class="menu-filters" id="menuFilters"></div>
+    <div class="menu-grid" id="menuGrid">
+      <!-- product cards injected by app.js -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap contact-inner">
+    <div>
+      <h2>Order &amp; enquiries</h2>
+      <p>Message us directly — we reply fastest on WhatsApp and Instagram.</p>
+      <ul class="contact-list">
+        <li>📞 <a href="tel:+919344421237">+91 93444 21237</a></li>
+        <li>💬 <a href="https://wa.me/919344421237" target="_blank" rel="noopener">WhatsApp: +91 93444 21237</a></li>
+        <li>📸 <a href="https://www.instagram.com/home_baking29/" target="_blank" rel="noopener">@home_baking29</a></li>
+        <li>📍 Cheranmahadevi, Tirunelveli, Tamil Nadu</li>
+      </ul>
+    </div>
+    <div class="contact-art" aria-hidden="true">
+      <svg viewBox="0 0 200 200" fill="none">
+        <circle cx="100" cy="100" r="92" class="cake-line" stroke-dasharray="4 7"/>
+        <path class="cake-line" d="M60 120 L60 96 Q60 88 70 88 L130 88 Q140 88 140 96 L140 120"/>
+        <path class="cake-line" d="M70 120 Q100 128 130 120"/>
+        <path class="cake-line cake-bloom" d="M100 70 Q92 62 100 54 Q108 62 100 70Z"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span class="brand-script small">JJ Bake's</span>
+    <p>&copy; <span id="year"></span> JJ Bake's Home Bakery. Made with love (and butter).</p>
+  </div>
+</footer>
+
+<!-- ============ CART DRAWER ============ -->
+<aside class="drawer" id="cartDrawer">
+  <div class="drawer-head">
+    <h3>Your Cart</h3>
+    <button class="icon-btn" id="closeCart" aria-label="Close cart">✕</button>
+  </div>
+  <div class="drawer-body" id="cartItems"><!-- injected --></div>
+  <div class="drawer-foot">
+    <div class="cart-total"><span>Total</span><strong id="cartTotal">₹0</strong></div>
+    <button class="btn btn-primary full" id="checkoutBtn">Checkout</button>
+  </div>
+</aside>
+<div class="overlay" id="overlay"></div>
+
+<!-- ============ CHECKOUT MODAL ============ -->
+<div class="modal" id="checkoutModal">
+  <div class="modal-card">
+    <button class="icon-btn modal-close" data-close="checkoutModal">✕</button>
+    <h3>Pre-order details</h3>
+    <form id="checkoutForm">
+      <label>Name<input type="text" name="customerName" required></label>
+      <label>Phone number<input type="tel" name="phone" required></label>
+      <label>Order for date<input type="date" name="orderDate" required></label>
+      <div class="radio-row">
+        <label><input type="radio" name="deliveryType" value="delivery" checked> Home delivery</label>
+        <label><input type="radio" name="deliveryType" value="pickup"> Store pickup</label>
+      </div>
+      <label id="addressField">Delivery address<textarea name="address" rows="2"></textarea></label>
+      <label>Notes (design details, message on cake, etc.)<textarea name="notes" rows="2"></textarea></label>
+      <p class="form-msg" id="checkoutMsg"></p>
+      <button type="submit" class="btn btn-primary full">Place order</button>
+    </form>
+  </div>
+</div>
+
+<!-- ============ AUTH MODAL ============ -->
+<div class="modal" id="authModal">
+  <div class="modal-card">
+    <button class="icon-btn modal-close" data-close="authModal">✕</button>
+    <div class="auth-tabs">
+      <button class="auth-tab active" data-tab="login">Log in</button>
+      <button class="auth-tab" data-tab="register">Register</button>
+    </div>
+
+    <form id="loginForm" class="auth-form active">
+      <label>Email<input type="email" name="email" required></label>
+      <label>Password<input type="password" name="password" required></label>
+      <p class="form-msg" id="loginMsg"></p>
+      <button type="submit" class="btn btn-primary full">Log in</button>
+    </form>
+
+    <form id="registerForm" class="auth-form">
+      <label>Name<input type="text" name="name" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Phone number<input type="tel" name="phone" required></label>
+      <label>Password<input type="password" name="password" required minlength="6"></label>
+      <p class="form-msg" id="registerMsg"></p>
+      <button type="submit" class="btn btn-primary full">Create account</button>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/theme.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

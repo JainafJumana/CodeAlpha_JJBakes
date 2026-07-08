@@ -1,0 +1,157 @@
+[
+  {
+    "id": "cake-vanilla",
+    "category": "Cakes",
+    "name": "Vanilla Cake",
+    "unit": "1/2 kg",
+    "price": 300,
+    "customizable": true,
+    "image": "images/vanilla-cake.jpg"
+  },
+  {
+    "id": "cake-chocolate",
+    "category": "Cakes",
+    "name": "Chocolate Cake",
+    "unit": "1/2 kg",
+    "price": 350,
+    "customizable": true,
+    "image": "images/chocolate-cake.jpg"
+  },
+  {
+    "id": "cake-strawberry",
+    "category": "Cakes",
+    "name": "Strawberry Cake",
+    "unit": "1/2 kg",
+    "price": 350,
+    "customizable": true,
+    "image": "images/strawberry-cake.jpg"
+  },
+  {
+    "id": "cake-pineapple",
+    "category": "Cakes",
+    "name": "Pineapple Cake",
+    "unit": "1/2 kg",
+    "price": 350,
+    "customizable": true,
+    "image": "images/vanilla-pineapple-cake.jpg"
+  },
+  {
+    "id": "cake-bluecurrant",
+    "category": "Cakes",
+    "name": "Blue Currant Cake",
+    "unit": "1/2 kg",
+    "price": 360,
+    "customizable": true,
+    "image": "images/blue-currant-cake.jpg"
+  },
+  {
+    "id": "cake-blackforest",
+    "category": "Cakes",
+    "name": "Black Forest Cake",
+    "unit": "1/2 kg",
+    "price": 400,
+    "customizable": true,
+    "image": "images/black-forest-cake.jpg"
+  },
+  {
+    "id": "cake-whiteforest",
+    "category": "Cakes",
+    "name": "White Forest Cake",
+    "unit": "1/2 kg",
+    "price": 380,
+    "customizable": true,
+    "image": "images/white-forest-cake.jpg"
+  },
+  {
+    "id": "cake-rasamalai",
+    "category": "Cakes",
+    "name": "Rasamalai Cake",
+    "unit": "1/2 kg",
+    "price": 500,
+    "customizable": true,
+    "image": "images/rasamalai-cake.jpg"
+  },
+  {
+    "id": "cake-dream",
+    "category": "Cakes",
+    "name": "Dream Cake",
+    "unit": "1/2 kg",
+    "price": 500,
+    "customizable": true,
+    "image": "images/dream-cake.jpg"
+  },
+  {
+    "id": "cake-bento",
+    "category": "Bento Cakes",
+    "name": "Bento Cake",
+    "unit": "piece",
+    "price": null,
+    "customizable": true,
+    "image": "images/bento-cake.jpg"
+  },
+  {
+    "id": "brownie-fudgy",
+    "category": "Brownies",
+    "name": "Fudgy Brownies",
+    "unit": "1/2 kg",
+    "price": 400,
+    "image": "images/fudgy-brownie.jpg"
+  },
+  {
+    "id": "brownie-triple-choco",
+    "category": "Brownies",
+    "name": "Triple Chocolate Brownie",
+    "unit": "1/2 kg",
+    "price": 500,
+    "image": "images/triple-choco-brownie.jpg"
+  },
+  {
+    "id": "brownie-double-choco",
+    "category": "Brownies",
+    "name": "Double Chocolate Brownie",
+    "unit": "1/2 kg",
+    "price": 500,
+    "image": "images/double-choco-brownie.jpg"
+  },
+  {
+    "id": "jar-cookie-dip",
+    "category": "Cookies & Jars",
+    "name": "Cookie Bites with Dipping",
+    "unit": "jar",
+    "price": 250,
+    "image": "images/cookie-bites-jar.jpg"
+  },
+  {
+    "id": "cookie-choco-chip",
+    "category": "Cookies & Jars",
+    "name": "Choco Chip Cookies (Regular)",
+    "unit": "1 cookie",
+    "price": 40,
+    "image": "images/choco-chip-cookies.jpg"
+  },
+  {
+    "id": "jar-any-flavour",
+    "category": "Cookies & Jars",
+    "name": "Any Flavour Jar Cake",
+    "unit": "jar",
+    "price": null,
+    "customizable": true,
+    "image": "images/any-flavour-jar-cake.jpg"
+  },
+  {
+    "id": "tea-cakes",
+    "category": "Custom & Bulk",
+    "name": "Tea Cakes",
+    "unit": "piece",
+    "price": null,
+    "image": "images/tea-cake.jpg"
+  },
+  {
+    "id": "bulk-orders",
+    "category": "Custom & Bulk",
+    "name": "Bulk Orders",
+    "unit": "order",
+    "price": null,
+    "icon": "tiered-cake"
+  }
+]
